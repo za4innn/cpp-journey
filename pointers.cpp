@@ -41,7 +41,11 @@ int main(){
         std::cout << "address was assigned!\n";
         std::cout << *pointer;
     }
+
+    // & address operator
+    int num = 69;
     
+    std::cout << &num <<'\n'; //gives address of 69 from memory
 
     return 0;
 }
