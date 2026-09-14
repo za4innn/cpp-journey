@@ -42,10 +42,22 @@ int main(){
         std::cout << *pointer;
     }
 
+
+    
     // & address operator
     int num = 69;
     
     std::cout << &num <<'\n'; //gives address of 69 from memory
+
+    
+
+    //memory management using new and delete keyword 
+    int* ptr = new int;
+    *ptr = 45;
+    std::cout << *ptr <<"\n";
+
+    delete ptr;
+    ptr = nullptr;
 
     return 0;
 }
