@@ -2,6 +2,7 @@
 
 void eat(int pizza);
 void drink(int soda);
+int factorial(int num);
 
 int main(){
 
@@ -18,6 +19,7 @@ int main(){
 
 eat(20);
 drink(10);
+std::cout << factorial(5);
 
     return 0;
 }
@@ -32,5 +34,21 @@ void drink(int soda){
     if(soda > 0){
         std::cout << "You drink a soda can!\n";   //recursive
         drink(soda - 1);                   
+    }
+}
+
+int factorial(int num){
+    // int result = 1;
+    // for(int i = 1; i <= num; i++){                 //iterative
+    //     result = result * i;
+    // }
+    // return result;
+
+    if(num > 1){
+        return num * factorial(num -1);
+
+    }
+    else{
+        return 1;
     }
 }
