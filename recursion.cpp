@@ -1,8 +1,14 @@
 #include <iostream>
 
+//using auto keyword 
+auto max(T x ,U y){
+   return(x > y) ? x : y; 
+}
+
 void eat(int pizza);
 void drink(int soda);
 int factorial(int num);
+
 
 int main(){
 
@@ -20,6 +26,9 @@ int main(){
 eat(20);
 drink(10);
 std::cout << factorial(5);
+
+//function templates
+std::cout << max(4 , 5.5) <<'\n';
 
     return 0;
 }
