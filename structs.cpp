@@ -32,6 +32,24 @@ std::cout << student2.name << "\n";
 std::cout << student2.age << "\n";
 std::cout << student2.enrolled << "\n";
 
+    
+//pass structs as arguements
+Car car1;
+Car car2;
 
+car1.model = "Ferrari";
+car1.year = 2023;
+car1.color = "Red";
+
+
+car2.model = "Lamborghini";
+car2.year = 2024;
+car2.color = "Green";
+
+
+//calling function printcar
+printcar(car1);
+printcar(car2);
+    
     return 0;
 }
