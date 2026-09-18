@@ -6,6 +6,21 @@ struct student{
     bool enrolled = true;
 };
 
+//pass structs as arguements
+struct Car{
+   std::string model;
+   int year;
+   std::string color; 
+};
+
+void printcar(Car car){
+
+std::cout << car.model << "\n";
+std::cout << car.year << "\n";
+std::cout << car.color << "\n";
+
+}
+
 int main(){
 
 //Structures (also called structs) are a way to group several related variables into one place.
