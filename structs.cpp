@@ -21,6 +21,13 @@ std::cout << car.color << "\n";
 
 }
 
+enum Level {
+  LOW,
+  MEDIUM,
+  HIGH
+};
+
+
 int main(){
 
 //Structures (also called structs) are a way to group several related variables into one place.
@@ -65,6 +72,28 @@ car2.color = "Green";
 //calling function printcar
 printcar(car1);
 printcar(car2);
+
     
+// enums = a user-defined data type that consists
+//         of paired named-integer constants.
+//         GREAT if you have a set of potential options
+
+
+
+  enum Level myVar;
+
+  switch (myVar) {
+    case 1:
+      std::cout << "Low Level";
+      break;
+    case 2:
+      std::cout << "Medium level";
+      break;
+    case 3:
+      std::cout << "High level";
+      break;
+  }
+
+      
     return 0;
 }
