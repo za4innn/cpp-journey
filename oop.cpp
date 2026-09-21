@@ -8,6 +8,21 @@ class icecream{
     
 };
 
+//constrctors
+class car{
+    public:
+      std::string name;
+      int year;
+      std::string color;
+
+      car(std::string name, int year, std::string color){
+        this->name = name;
+        this->year = year;
+        this->color = color;
+      }
+
+};
+
 int main(){
 
 
