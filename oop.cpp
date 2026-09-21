@@ -29,5 +29,26 @@ std::cout << icecream1.color << '\n';
 std::cout << icecream1.weight << "g\n";
 
 
+//constructors
+car car1("Ford", 2023, "Red");
+car car2("Bentley", 2022, "White");
+car car3("Nissan", 2024, "Blue");
+
+
+std::cout << car1.name << '\n';
+std::cout << car1.year << '\n';
+std::cout << car1.color << '\n';
+
+
+std::cout << car2.name << '\n';
+std::cout << car2.year << '\n';
+std::cout << car2.color << '\n';
+
+
+std::cout << car3.name << '\n';
+std::cout << car3.year << '\n';
+std::cout << car3.color << '\n';    
+
+
     return 0;
 }
