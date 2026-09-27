@@ -81,7 +81,10 @@ std::cout << car2.color << '\n';
 
 std::cout << car3.name << '\n';
 std::cout << car3.year << '\n';
-std::cout << car3.color << '\n';    
+std::cout << car3.color << '\n';   
+
+supercar mysuper;
+mysuper.race();    
 
 
     return 0;
