@@ -5,6 +5,10 @@ class icecream{
       std::string flavor;
       std::string color;
       int weight;
+
+ void eat(){
+        std::cout << "Yum Yum!";
+      }
     
 };
 
