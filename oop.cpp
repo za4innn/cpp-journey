@@ -35,6 +35,13 @@ class car{
 
 };
 
+//Inheritance
+class supercar: public car {
+  public:
+      double price;
+
+};
+
 int main(){
 
 
