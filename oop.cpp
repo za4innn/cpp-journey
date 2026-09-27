@@ -19,6 +19,14 @@ class car{
       int year;
       std::string color;
 
+      car() {
+        // default initialization
+      }
+
+      void race(){
+        std::cout << "Wum Wum!";
+      }
+
       car(std::string name, int year, std::string color){
         this->name = name;
         this->year = year;
