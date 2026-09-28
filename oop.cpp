@@ -114,7 +114,11 @@ mysuper.race();
 employee worker1("Ali", 34);
 
 std::cout << worker1.name << '\n';
-std::cout << worker1.age << '\n';    
+std::cout << worker1.age << '\n';   
+
+worker1.setsalary(40000);
+
+std::cout << worker1.getsalary() << '\n';    
 
 
     return 0;
