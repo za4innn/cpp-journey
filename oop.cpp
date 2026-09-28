@@ -55,6 +55,18 @@ class employee{
          this->age = age;
     }
 
+    //getter function
+    double getsalary(){
+      return salary;
+    }
+
+    //setter function
+    void setsalary(double salary){
+      this-> salary = salary;
+    } 
+
+};
+
 int main(){
 
 
