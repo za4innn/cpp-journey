@@ -24,7 +24,7 @@ class car{
       }
 
       void race(){
-        std::cout << "Wum Wum!";
+        std::cout << "Wum Wum!\n";
       }
 
       car(std::string name, int year, std::string color){
@@ -41,6 +41,19 @@ class supercar: public car {
       double price;
 
 };
+
+class employee{
+    private:
+    double salary;
+
+    public:
+    std::string name;
+    int age;
+
+    employee(std::string name, int age){
+         this->name = name;
+         this->age = age;
+    }
 
 int main(){
 
