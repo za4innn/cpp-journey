@@ -111,6 +111,11 @@ std::cout << car3.color << '\n';
 supercar mysuper;
 mysuper.race();    
 
+employee worker1("Ali", 34);
+
+std::cout << worker1.name << '\n';
+std::cout << worker1.age << '\n';    
+
 
     return 0;
 }
