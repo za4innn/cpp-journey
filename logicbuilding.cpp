@@ -23,7 +23,20 @@ for(int i = 0; i <= num; i++){
         sum += i;
 }
 
-std::cout << sum ;     
+std::cout << sum ;  
+
+
+// Check even/odd
+int value;
+std::cout <<"Enter your value : ";
+std::cin >> value;
+ 
+if(value % 2 == 0){
+   std::cout << "Even number.";
+}
+else{
+    std::cout << "Odd number.";
+}     
 
 
 
