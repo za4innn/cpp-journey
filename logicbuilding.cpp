@@ -14,6 +14,18 @@ for(int i = 1; i <= n; i++){
 }
 
 
+// Sum of first N numbers
+int num , sum = 0;
+std::cout << "Enter number of terms : ";
+std::cin >> num;
+
+for(int i = 0; i <= num; i++){
+        sum += i;
+}
+
+std::cout << sum ;     
+
+
 
 
 
