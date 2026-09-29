@@ -39,6 +39,21 @@ else{
 }     
 
 
+// Find largest of 3 numbers
+int a , b , c;
+std ::cout << "Enter three numbers : ";
+std::cin >> a >> b >> c;
+
+if(a > b && a > c){
+    std::cout << a << " is largest number.";
+}
+else if(b > c && b > a){
+    std::cout << b << " is largest number.";
+}
+else{
+    std::cout << c << " is largest number.";
+}     
+
 
 
 
