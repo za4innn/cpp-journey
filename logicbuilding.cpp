@@ -69,6 +69,15 @@ while( n > 0){
 
 std::cout << "reversed number : " << reverse;
 
+
+// Count digits
+std::string number;
+std::cout << "Enter your number : ";
+std::cin >> number;
+
+int count = number.length();
+std::cout << "Total number : " << count;     
+
      
 
     return 0;
