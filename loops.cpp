@@ -32,4 +32,19 @@ int main(){
         std::cin >> dec ;
     } while (dec <= 1);
 
+
+// Reverse a number
+int n , reverse = 0;
+std::cout << "Enter any number : ";
+std::cin >> n;
+
+while( n > 0){
+    int digit;
+    digit = n % 10;
+    reverse = reverse * 10 + digit;
+    n /= 10;
+}
+
+std::cout << "reversed number : " << reverse;
+
 }
