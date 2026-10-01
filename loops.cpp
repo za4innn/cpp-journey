@@ -47,4 +47,16 @@ while( n > 0){
 
 std::cout << "reversed number : " << reverse;
 
+
+int number1;
+int count = 0;
+
+std::cout << "Enter your number: ";
+std::cin >> number1;
+
+while (number1 != 0) {
+    number1 = number1 / 10;
+    count++;
+}   
+
 }
