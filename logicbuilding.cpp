@@ -90,7 +90,21 @@ while (number1 != 0) {
     count++;
 }
 
-std::cout << "Total digits: " << counting;     
+std::cout << "Total digits: " << counting;   
+
+
+// Sum of digits
+int value;
+int sum = 0;
+
+std::cout << "Enter your number : ";
+std::cin >> value;
+
+while(value > 0){
+    sum += value % 10;
+    value /= 10;
+}
+std::cout << "Sum of digits : " << sum;     
 
      
 
