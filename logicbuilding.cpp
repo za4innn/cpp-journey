@@ -104,7 +104,23 @@ while(value > 0){
     sum += value % 10;
     value /= 10;
 }
-std::cout << "Sum of digits : " << sum;     
+std::cout << "Sum of digits : " << sum;  
+
+
+// Check positive/negative/zero
+int num1;
+std::cout << "Enter your number : ";
+std::cin >> num1;
+
+if(num1 > 0){
+    std::cout << "Positive number.";
+}
+else if(num1 < 0){
+    std::cout << "Negative number.";
+}
+else{
+    std::cout << "Zero.";
+}     
 
      
 
