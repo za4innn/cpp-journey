@@ -76,7 +76,21 @@ std::cout << "Enter your number : ";
 std::cin >> number;
 
 int count = number.length();
-std::cout << "Total number : " << count;     
+std::cout << "Total number : " << count; 
+
+
+int number1;
+int count = 0;
+
+std::cout << "Enter your number: ";
+std::cin >> number1;
+
+while (number1 != 0) {
+    number1 = number1 / 10;
+    count++;
+}
+
+std::cout << "Total digits: " << counting;     
 
      
 
