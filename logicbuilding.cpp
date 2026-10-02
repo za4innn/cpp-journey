@@ -123,7 +123,40 @@ else{
 }     
 
      
+// Simple calculator using switch
+double numberone , numbertwo;
+char operation;
 
+std::cout << "Enter first number : ";
+std::cin >> numberone;
+std::cout << "Enter second number : ";
+std::cin >> numbertwo;
+std::cout << "Enter your operation(+ , - , * , /) : ";
+std::cin >> operation;
+
+switch (operation)
+{
+case '+':
+    std::cout << "Addition : " << numberone + numbertwo;
+    break;
+case '-':
+    std::cout << "Subtraction : " << numberone - numbertwo;
+    break;
+case '*':
+    std::cout << "Multiplication : " << numberone * numbertwo;
+    break;
+case '/':
+    std::cout << "Division : " << numberone / numbertwo;
+    break;
+
+default:
+    std::cout << "Inavlid operation!";
+    break;
+}
+
+
+     
+     
     return 0;
 }
 
