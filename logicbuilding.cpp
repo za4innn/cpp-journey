@@ -155,7 +155,29 @@ default:
 }
 
 
-     
+// Check palindrome number
+int numm;
+int reversed = 0;
+
+std::cout << "Enter your number : ";
+std::cin >> numm;
+
+int original = numm;
+
+while(numm > 0){
+    int digitt;
+    digitt = numm % 10;
+    reversed = reversed * 10 + digitt;
+    numm /= 10;
+}
+std::cout << "Reversed number : " << reversed <<"\n";
+
+if(reversed == original){
+    std::cout << "Palindrome number."; 
+}
+else{
+    std::cout << "Not palindrome number.";
+}     
      
     return 0;
 }
