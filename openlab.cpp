@@ -99,9 +99,86 @@ int main(){
     }while(exit == 'Y' || exit == 'y');
 
 
-    //in next upload 
-    //i will make resturant program 
-    //of university task
+    
+
+    //Resturant program
+    int choice , quantity = 0;
+
+    do{
+        cout << "\n---Restaurant program---\n";
+        cout << "Enter your order(1-4) : \n";
+        cout << "1. Pizza -------- Rs 300\n";
+        cout << "2. BUrger ------- RS 350\n";
+        cout << "3. Sandwich ----- Rs 250\n";
+        cout << "4. Exit\n";
+        cin >> choice;
+
+        double price = 0 , billIs = 0;
+        switch (choice)
+        {
+        case 1:
+            cout << "Enter your quantity : ";
+            cin >> quantity;
+            price = 300;
+            billIs = price * quantity;
+            break;
+
+        case 2:
+            cout << "Enter your quantity : ";
+            cin >> quantity;
+            price = 350;
+            billIs = price * quantity;
+            break;
+
+        case 3:
+            cout << "Enter your quantity : ";
+            cin >> quantity;
+            price = 250;
+            billIs = price * quantity;
+            break;
+
+        case 4:
+            cout << "Thanks for visiting!";
+            break;
+        
+        default:
+            cout << "Invalid choice!";
+            break;
+        }
+
+        double disco = 0;
+        if(billIs >= 2000){
+            disco = billIs * 0.10;
+            if(quantity >= 20){
+               disco += billIs * 0.3;
+            }
+            else if(quantity >= 30){
+                disco += billIs * 0.5;
+            }
+        }
+        else if(billIs >= 3000){
+            disco = billIs * 0.15;
+            if(quantity >= 20){
+               disco += billIs * 0.3;
+            }
+            else if(quantity >= 30){
+                disco += billIs * 0.5;
+            }
+        }
+        else{
+            cout << "No discount!";
+        }
+
+        double finalBill = billIs - disco;
+
+        cout << "\n----------BILL----------\n";
+        cout << "Subtotal Bill : Rs " << billIs;
+        cout << "\nDiscount : Rs " << disco;
+        cout << "\nFinal Bill : Rs " << finalBill;
+        cout << "\n------------------------\n\n";
+
+        
+    } while (choice != 4);
 
 
     return 0;
