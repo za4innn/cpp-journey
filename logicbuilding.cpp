@@ -206,6 +206,28 @@ if(isprime){
 else{
     std::cout << "Not Prime number.";
 }
+
+
+
+// Print primes from 1 to N
+    int n;
+    std::cout << "Enter number : ";
+    std::cin >> n;
+
+    for (int num = 2; num <= n; num++) {
+        bool isPrime = true;
+
+        for (int i = 2; i * i <= num; i++) {
+            if (num % i == 0) {
+                isPrime = false;
+                break;
+            }
+        }
+
+        if (isPrime) {
+            std::cout << num << " ";
+        }
+    }
      
      
     return 0;
