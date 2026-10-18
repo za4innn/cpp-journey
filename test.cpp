@@ -40,7 +40,24 @@ int main (){
     // }
 
 
+    //find largest number between a,b,c
+    // int a,b,c;
+    // cout<<"Enter number a,b,c : ";
+    // cin >>a>>b>>c;
 
+    // if(a > b && a > c){
+    //     cout << a<<" is largest number.";
+    // }
+    // else if(b > a && b > c){
+    //     cout << b<< " is largest number.";
+    // }
+    // else if(c > a && c > b){
+    //     cout << c<<" is largest number.";
+    // }
+
+
+
+    
     
      
 
