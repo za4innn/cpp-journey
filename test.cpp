@@ -58,7 +58,20 @@ int main (){
 
 
     
+    //Reverse a number
+    // int n , reverse = 0;
+    // cout << "Enter a number : ";
+    // cin >> n;
+
     
+    // while (n > 0)
+    // {
+    //     int div;
+    //     div = (n % 10) ;
+    //     reverse = reverse * 10 + div;
+    //     n /= 10;
+    // }
+    // cout << "Reversed number : "<< reverse;
      
 
     
