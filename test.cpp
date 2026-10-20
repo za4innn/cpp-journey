@@ -91,5 +91,22 @@ int main (){
 
 
 
+    //positive / negative / zero
+    // int value;
+    // cout <<"Enter your number : ";
+    // cin >> value;
+
+    // if(value > 0){
+    //     cout <<"Positive number.";
+    // }
+    // else if(value < 0){
+    //     cout << "Negative number.";
+    // }
+    // else{
+    //     cout <<"Zero.";
+    // }
+
+
+
     return 0;
 }
