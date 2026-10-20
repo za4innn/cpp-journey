@@ -75,7 +75,19 @@ int main (){
      
 
     
+    //sum of digits
+    // int n;
+    // int sum = 0;
 
+    // cout << "Enter your number : ";
+    // cin >> n;
+
+    // while(n > 0){
+    //     sum += n % 10;
+    //     n /= 10;
+    // }
+
+    // cout << "Sum of digits : "<< sum;
 
 
 
