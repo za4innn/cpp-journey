@@ -107,6 +107,30 @@ int main (){
     // }
 
 
+    //check palindrome number
+    // int num;
+    // int reverse = 0;
+
+    // cout <<"Enter your number : ";
+    // cin >> num;
+
+    // int original = num;
+
+    // while(num > 0){
+    //     int digit;
+    //     digit = num % 10;
+    //     reverse = reverse * 10 + digit;
+    //     num /= 10;
+    // }
+
+    // if(original == reverse){
+    //     cout << "Palindrome number.";
+    // }
+    // else{
+    //     cout << "Not a palindrome number.";
+    // }
+
+
 
     return 0;
 }
