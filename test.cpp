@@ -1,6 +1,26 @@
 #include <iostream>
 using namespace std;
 
+
+void rectangle(double length , double width){
+//     double area;
+//     area = length * width;
+//     cout << area;
+// }
+
+// double circle(double radius){
+//     const double PI = 3.14;
+//     double area = PI * (radius * radius);
+//     cout << area;
+// }
+
+// double triangle(double base , double height){
+//     double area = 0.5 * base * height;
+//     cout << area;
+
+// }
+
+
 int main (){
 
     //print numbers from 1 to N
