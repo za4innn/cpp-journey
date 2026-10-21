@@ -209,5 +209,34 @@ int main (){
     //     cout << "Not a prime number.";
     // }
 
+
+
+    //program for calculating area for different shapes
+    // int option;
+    // cout << "Select option to calculate area : " << endl;
+    // cout << "1.Rectangle." << endl;
+    // cout << "2.Circle." << endl;
+    // cout << "3.Triangle." << endl;
+    // cin >> option;
+
+    // switch (option)
+    // {
+    // case 1:
+    // double length , width;
+    // cout << "Enter length of rectangle : ";
+    // cin >> length;
+    // cout << "Enter width of rectangle : ";
+    // cin >> width;
+    // rectangle(length , width);
+        
+    //     break;
+
+    // case 2:
+    // double radius;
+    // cout << "Enter radius of circle : ";
+    // cin >> radius;
+    // circle(radius);
+    //     break;
+
     return 0;
 }
