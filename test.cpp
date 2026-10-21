@@ -132,5 +132,28 @@ int main (){
 
 
 
+
+    //check prime  numbers
+    // 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97.
+    // int prime;
+
+    // cout <<"Enter your number : ";
+    // cin >>prime;
+
+    // if(prime <= 1){
+    //     cout << "Not a prime number.";
+    // }
+
+    // if(prime == 2 || prime == 3 || prime == 5){
+    //     cout << "Prime number.";
+    // }
+    // else if(prime % 2 == 0 || prime % 3 == 0 || prime % 5 == 0 || prime % 7 == 0){
+    //     cout << "Not prime number.";
+    // }
+    // else{
+    //     cout << "Prime numer.";
+    // }
+
+
     return 0;
 }
