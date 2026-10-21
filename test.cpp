@@ -155,5 +155,39 @@ int main (){
     // }
 
 
+
+    //check prime number 
+    //second method
+    // int num;
+    // cout << "Enter any number : ";
+    // cin >> num;
+    // bool isprime = true;
+
+    // if(num <= 1){
+    //     isprime = false;
+    // }
+    // else if(num == 2){
+    //     isprime = true;
+    // }
+
+    // else{
+    //     for (int i = 2; i < num; i++)
+    //     {
+    //         if(num % i == 0){
+    //             isprime = false;
+    //             break;
+    //         }
+            
+    //     }
+        
+    // }
+
+    // if(isprime){
+    //     cout << "Prime number.";
+    // }
+    // else{
+    //     cout << "Not a prime number.";
+    // }
+
     return 0;
 }
