@@ -238,5 +238,19 @@ int main (){
     // circle(radius);
     //     break;
 
+    //case 3:
+    // double base , height;
+    // cout << "Enter base of triangle : ";
+    // cin >> base;
+    // cout << "Enter height of triangle : ";
+    // cin >> height;
+    // triangle(base , height);
+    //     break;
+    
+    // default:
+    // cout << "Invalid option!";
+    //     break;
+    // }
+
     return 0;
 }
