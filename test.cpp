@@ -274,6 +274,30 @@ int main (){
     //     }
         
     // }
+
+    
+
+    //Find factorial
+    // int n;
+    // long long int factorial = 1;
+    // cout << "Enter number : ";
+    // cin >> n;
+    // int number = n;
+
+    // if(n < 0){
+    //     cout << "Factorial is not defined for negative numbers!";
+    // }
+
+    // else{
+
+    //     while(n >= 1){
+    //         factorial *= n;
+    //         n--;
+    //     }
+    //     // cout << "Factorial of " << number << " is " <<factorial;
+    //        cout << number <<"! = " << factorial;
+        
+    // }
     
 
     return 0;
