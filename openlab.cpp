@@ -181,5 +181,19 @@ int main(){
     } while (choice != 4);
 
 
+    int numbers[5];
+     
+    for(int i=0; i<5;i++){
+        cout << "Enter number "<< i + 1 << " : ";
+        cin >> numbers[i];
+    }
+
+    cout << "\nYour numbers are: ";
+    
+    for(int i=0; i<5; i++){
+    cout << numbers[i] << " ";
+    }
+
+
     return 0;
 }
